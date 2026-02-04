@@ -11,7 +11,7 @@ class FileWrite
 	mutex flag;
 public:
 	FileWrite(const string& file) :filename(file) {}
-	void AppendLine(const string& file, int threadNum, int iterationNum);
+	void AppendLine(int threadNum, int iterationNum);
 	void Read(const string& filename);
 };
 

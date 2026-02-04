@@ -1,6 +1,6 @@
 #include "FileWrite.h"
 
-void FileWrite::AppendLine(const string& file, int threadNum, int iterationNum)
+void FileWrite::AppendLine(int threadNum, int iterationNum)
 {
 	for (int i = 1; i <= iterationNum; i++)
 	{
